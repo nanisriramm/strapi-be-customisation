@@ -2,7 +2,7 @@ const { createCoreController } = require("@strapi/strapi").factories;
 
 module.exports = createCoreController("api::post.post", ({ strapi }) => ({
   /**
-   * Example 1: Modifying a Strapi controller function
+   * Example 1: Modifying a Strapi controller functionn
    *
    * If you need to modify the input or output of a pre-defined Strapi controller method,
    * write a method of the same name, and use `super` to call the parent method.
